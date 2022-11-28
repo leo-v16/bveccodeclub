@@ -1,6 +1,7 @@
 
 .mainabout{
     /* display: flex; */
+    background-color: black;
 width: 85vw;
 justify-content: center;
 text-align: center;
