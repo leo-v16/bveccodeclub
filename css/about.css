@@ -2,13 +2,14 @@
 
 .mainabout{
     /* display: flex; */
+    background-color: black;
 width: 85vw;
 justify-content: center;
 text-align: center;
-  border: 4px groove rgb(122, 69, 5) ;
-  box-shadow: 5px 5px   rgb(29, 198, 108)  ;
+  /* border: 4px groove rgb(122, 69, 5) ;
+  box-shadow: 5px 5px   rgb(29, 198, 108)  ; */
   border-radius: 1rem;
-   margin-top: 7rem;
+   margin-top: 1.9rem;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 2rem;
@@ -22,6 +23,7 @@ text-align: center;
     margin-top: 1rem;
     border: 3px solid;
     width: max-content;
+    max-width: 90vw;
     padding: 0.7rem;
    border-top-left-radius: 1.9rem;
    border-bottom-right-radius: 1.9rem;
@@ -35,8 +37,10 @@ text-align: center;
 color:#d1cade;
 font-family: monospace;
 font-weight: 800;
-font-size: 1.2rem;
-width:70vw;
+font-size: 1rem;
+font-style: normal;
+
+width:80vw;
 margin-left: auto;
 margin-right: auto;
 
