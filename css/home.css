@@ -3,7 +3,14 @@
     /* width: 100%; */
     padding: 2rem;
 }
-
+marquee{
+    color:yellow;
+    margin-top: .6rem;
+}
+marquee a{
+    color:rgb(22, 118, 245);
+    
+}
 .home-message{
     width: 55%;
 }

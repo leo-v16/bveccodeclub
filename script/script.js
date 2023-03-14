@@ -23,7 +23,7 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = "Test Link : ";
+    document.getElementById("countdown").innerHTML = "https://forms.gle/bnAiNMtXyHBZkX8FA ";
   }
 }, 1000);
 
