@@ -1,49 +1,130 @@
 
-.gallery_title{
-    color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+@font-face {
+    font-family: monospace;
+    src: url(/font/FontsFree-Net-Centauri.ttf);
+}
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+.main_title{
     text-align: center;
-    border: 3px solid rgb(211, 111, 16);
+    color: rgba(210, 105, 30, 0.937);
+    margin-top: 2rem;
+    border: 2px solid aqua;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3rem;
-    padding: 0.9rem;
-    border-top-left-radius:4rem ;
-    border-bottom-right-radius: 4rem;
+    padding: 0.5rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+}
+hr{
+         border:none;
+           width: 90%;
+          height: 50px;
+          margin-top: -1rem;
+          border-bottom: 1px solid #1f1209;
+          box-shadow: 0 20px 20px -20px rgb(161, 180, 21);
+          margin-left: auto;
+          margin-right: auto;
 }
 
-.combine_gallery{
-    margin-top: 3rem;
-    display: flex;
-    justify-content:center;
+.btn_gallery{
+    text-align: center;    
+    margin-top: 1.2rem;
+ 
 }
-
-.gallery_content button{
-    font-size: 1rem;
-    border: 3px solid  rgb(211, 111, 16);
-    margin-right: 0.5rem;
-    padding: 0.6rem;
-    border-top-left-radius: 4rem;
-    border-bottom-right-radius: 4rem;
-    transition: transform .2s;
-}
-.button:hover{
-  transform: scale(1.1);
-}
-
-.img_coding_c{ 
-    margin-left: 10rem;
-    margin-top: 5rem;
-    border: 1px solid aqua;
+.btnlist{
+    border: 2px solid black;
     padding: 1rem;
-    float: left;
-}
-.event_title h3{
-    color:rgb(228, 85, 20);
-    font-family:'Courier New', Courier, monospace;
-    text-align: center;
+    font-family: monospace;
     margin-top: 1rem;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    margin-bottom: rem;
 }
+.btnlist:hover{
+    background-color: aqua;
+}
+#Codelance{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+
+   
+}
+#Devlance{
+    display:none;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+
+}
+#oreintation{
+    display:none;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+.photo{
+    border: 2px solid rgb(184, 29, 29);
+    box-shadow: 10px 10px rgb(72, 28, 28);
+    width: 281px;
+    height: 180px;
+    transition:transform .2s;
+    margin-top: 3rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+  
+}
+.event_title{
+    background-color: aqua;
+    text-align: center;
+    margin-top: 2.2rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.4rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+   
+}
+.photo:hover{
+    transform: scale(1.2);
+}
+.close {
+    color: rgb(242, 224, 224);
+    font-size: 3rem;
+    margin-left: 95%;
+  }
+  .close:hover{
+    color: #e01414;
+    cursor: pointer;
+  }
+#eventmodal{
+    width:98vw;
+    margin-bottom: 3rem;
+    background-color: black;
+    position: absolute;
+    top:29%;
+    z-index: 1;
+    display:none;
+}
+.numbertext{
+    color: aliceblue;
+ width:fit-content;
+   position: absolute;
+   top:44rem;
+   left: 10rem;
+   padding: 0.1rem;
+   border: 1px solid black;
+}
+
 @media only screen and (max-width: 900px) {
     .menu{
        display: none;

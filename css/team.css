@@ -110,6 +110,9 @@ cursor: pointer;
 .github{
     color: rgb(119, 103, 103);
 }
+.fa-twitter{
+    color: #1DA1F2;
+}
 
 .teamphoto img{
     width: 233px;

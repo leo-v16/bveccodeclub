@@ -41,3 +41,45 @@ function myFunction() {
     x.style.display = "block";
   }
 }
+
+// gallery
+function eventclick(){
+  var x = document.getElementById("Codelance");
+  var y = document.getElementById("Devlance");
+  var z = document.getElementById("oreintation");
+  y.style.display="none";
+  z.style.display="none";
+  x.style.display==="flex"
+  x.style.display="none";
+  x.style.display="flex";
+    
+}
+function eventclick2(){
+  var x = document.getElementById("Codelance");
+  var y = document.getElementById("Devlance");
+  var z = document.getElementById("oreintation");
+  x.style.display="none";
+  z.style.display="none";
+  y.style.display="flex";
+  
+    
+}
+function eventclick3(){
+  var x = document.getElementById("Codelance");
+  var y = document.getElementById("Devlance");
+  var z = document.getElementById("oreintation");
+  x.style.display="none";
+  y.style.display="none";
+  z.style.display="flex";
+  
+    
+}
+function close(){
+  var x = document.getElementById("eventmodal");
+  x.style.display="none";
+  
+}
+function openmodal(){
+  var x = document.getElementById("eventmodal");
+  x.style.display="block";
+}
