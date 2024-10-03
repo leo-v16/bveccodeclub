@@ -1,10 +1,21 @@
-### Hi Coders 👋
+We are excited to announce that this repository is participating in Hacktoberfest 2024! 🎉
+Hacktoberfest is an annual event that encourages open-source contributions, and we're opening our doors to all contributors who want to help improve and expand our projects. Whether you're an experienced developer or just getting started, there are plenty of opportunities for everyone to contribute. By participating, you’ll not only improve your skills but also help make the BVEC Code Club’s repository more robust and accessible to the community!
 
-BVEC code club is a crucial part of Barak Valley Engineering College which provides every possible opportunities to all the aspiring programmers who aspire to change the world for the better.
+How to Contribute:
+Fork this repository
+Work on open issues or propose your own
+Submit a Pull Request (PR)
+Tag your PR with hacktoberfest to ensure it counts for Hacktoberfest 2024
+Whether you want to contribute to our coding projects, improve our documentation, or even suggest new features, your contributions are welcome! Let's work together to make our coding ecosystem better.
 
-The main purpose of the club is to make the coding environment in the campus better for all the students in all possible manner so that it can attract students. Better the environment better the mindset of the students to take the coding level up in the campus.
+What We Focus On:
+Coding and Algorithmic Programming
+Competitive Programming
+Web Development (Frontend & Backend)
+App Development
+Open-Source Contributions
+Technical Webinars and Workshops
+Let’s grow together and make this event a massive success for Hacktoberfest 2024! 🚀
 
-Since the inception of the club in 2019, the members over the years tried their level best to organise various coding events. As of 2022 the club's main responsibilities is to organise various coding events as the members have come with many ideas such as CODLLENGE, DEVLLENGE and various webinars on opensource, python, github, placement guides. The club focuses on Coding, Algorithmic Programming, Competitive programming, Web Designing, App Development, and various other aspects of Programming
-
-
-#Website : https://coding.bvec.ac.in/
+For more details, feel free to check out our website:
+https://coding.bvec.ac.in/
