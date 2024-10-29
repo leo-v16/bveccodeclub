@@ -1,6 +1,6 @@
-I have changed up the way in which the team member cards are rendered
-They can now be managed using firebase console
-This is done by using Firebase Firestore(for member details) and Storage(for images)
+I have changed up the way in which the team member cards are rendered<br>
+They can now be managed using firebase console<br>
+This is done by using Firebase Firestore(for member details) and Storage(for images)<br>
 
 The team details are stored as follows<br>
 DATA ARRANGEMENT:
