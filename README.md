@@ -4,7 +4,7 @@ This is done by using Firebase Firestore(for member details) and Storage(for ima
 
 The team details are stored as follows<br>
 DATA ARRANGEMENT:
-__________________________________________________________________________________________________________________________________________
+----------------------------------------------------------------------------------------------------------------------------------------
 <pre>Firebase Firestore > colletion(team-members) > documennt([member-position]) > collection([fields]
                                                                                    name: [name-of-member]
                                                                                    position: [position-of-member]
@@ -14,17 +14,21 @@ ________________________________________________________________________________
                                                                                    facebook: [facebook-profile-link]
                                                                                    instagram: [instagram-profile-link]
 )</pre>
-_________________________________________________________________________________________________________________________________________
+----------------------------------------------------------------------------------------------------------------------------------------
+<img src="https://firebasestorage.googleapis.com/v0/b/bvec-code-club-dev.appspot.com/o/public-images%2FScreenshot%20(32).png?alt=media&token=28ab6065-ad09-464b-9442-9b55192e27af">
+<br>
 
 SECURITY RULES:
---------------------------------------------------------------------------------------------------------------------------------------------
-rules_version = '2';<br>
-service cloud.firestore {<br>
-  match /databases/{database}/documents {<br>
-    match /team-members/{document=**} {<br>
-      allow read: if true; // Allow read access to all users<br>
-      allow write: if false; // Disallow write access for now<br>
-    }<br>
-  }<br>
-}<br>
--------------------------------------------------------------------------------------------------------------------------------------------
+________________________________________________________________________________________________________________________________________
+<pre>
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /team-members/{document=**} {
+      allow read: if true; // Allow read access to all users
+      allow write: if false; // Disallow write access for now
+    }
+  }
+}
+</pre>
+________________________________________________________________________________________________________________________________________
